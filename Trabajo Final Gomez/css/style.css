@@ -1,0 +1,33 @@
+:root{
+    --dark:#16191c;
+    --dar-x:#1e2126;
+    --ligth:#ffffff;
+
+
+
+    }
+body{
+    font-family: 'Spartan', sans-serif;
+    font-weight: 300;
+    color: var(--ligth);
+    margin-left:45px;
+    margin-top: 25px;
+}
+.bg-dark{
+    background-color: var(--dark)!important;
+}
+.bg-dark-x{
+    background-color: var(--dar-x);
+}
+.form-control, .btn{
+    min-height: 3.125rem;
+    line-height: initial;
+}
+
+.form-text{
+    display: none;
+}
+.btn{
+    margin-left: 3px;
+    margin-right: 3px;
+}

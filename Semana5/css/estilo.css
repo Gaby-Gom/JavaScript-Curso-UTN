@@ -1,0 +1,44 @@
+body{
+    
+    font-family: Calibri;
+	padding: 10px 20px;
+	background-color: #FFFFFF;
+}
+
+h1 {
+	color: #FFFFFF;
+	background-color: #ffbd33;
+	padding: 10px;
+	border-radius:0 20px;
+}
+
+.perdio, .gano{
+	display: none;
+}
+
+.perdio h2{
+	text-align: center;
+	color: #ec1b25;
+	font-size: 100px;
+
+}
+
+.perdio  img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.gano h2{
+	text-align: center;
+	color: #0bf86e;
+	font-size: 100px;
+
+}
+.gano  img{
+	width: 50%;
+	height: 40%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}

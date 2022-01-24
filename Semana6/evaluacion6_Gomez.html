@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Evaluación 6</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+	
+        <h1>Evaluación Unidad VI</h1>
+        <h2>Calcular Iva</h2>
+
+        <form class="form">
+               <label>Subtotal: </label>
+                <input type="number" id="precio" autofocus placeholder="Escriba un numero" required>
+               <label>Iva:</label>
+                <input type="text" id="iva" placeholder="21%" readonly>
+               
+               <label>Total: </label>
+                <input  class="totales"  type="text" id="precioTotal" placeholder="Total" readonly><br>
+
+
+                <button  class="calcular"  type="button" onclick="calcular();">Calcular Iva</button><br>
+                <button onclick="limpiar()">Limpiar</button>
+
+        </form>
+        
+       
+        <script type="text/javascript" src="js/funciones_evaluacion6_Gomez.js"></script>
+</body>
+</html>
